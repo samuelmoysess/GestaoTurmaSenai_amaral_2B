@@ -1,6 +1,58 @@
 @charset "UTF-8";
 
 @import"reset.css";
+@import "cores.css";
+@import "fontes.css";
+
+
+@font-face {
+    font-family: resident;
+    src: url(fonts/resident/The\ Resident.otf);
+}
+
+body {
+    color: var(--cor0);
+    font-family: resident;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 body{
