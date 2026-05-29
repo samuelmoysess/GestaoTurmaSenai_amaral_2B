@@ -1,63 +1,102 @@
 @charset "UTF-8";
-
-@import"reset.css";
+@import "reset.css";
 @import "cores.css";
-@import "fontes.css";
-
 
 @font-face {
-    font-family: resident;
-    src: url(fonts/resident/The\Resident.otf);
-}
-
-
-body {
-    color: var(--coffee-bean);
-    font-family: resident;
-    background-color: var(--majorelle-blue);
+    font-family: ResidentEvil;
+    src: url(fonts/resident/TheResident.otf);
 }
 
 body {
-    background-color: var(--golden-pollen);
+    color: var(--ghost-white);
+    font-family: ResidentEvil;
+    background-color: var(--carbon-black);
+}
+
+.tituloPrincipal {
+    text-align: center;
+    color: var(--ghost-white);
+}
+
+.img-banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header {
-    background-color: var(--wild-strawberry);
-    padding: 10px 0;
+    background-color: var(--pacific-blue);
+    padding: 20px;
 }
 
-ul {
+.menu {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.menu ul {
     list-style: none;
 }
 
-ul li {
+.menu ul li {
     display: inline-block;
+    padding: 20px;
+    border: 1px solid var(--ghost-white);
+    background-color: var(--royal-violet);
+    color: var(--ghost-white);
+    transition: 0.3s;
+}
+
+.menu ul li:hover {
+    background-color: var(--emerald);
+    cursor: pointer;
+}
+
+#turmas section {
+    display: inline-block;
+    vertical-align: top;
+    background-color: var(--pacific-blue);
+    width: 100%;
+    min-height: 350px;
+    border: 2px solid var(--ghost-white);
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#turmas footer {
+    background-color: var(--royal-violet);
     padding: 10px;
-    background-color: var(--malachite);
 }
 
-ul li:hover {
-    background-color: var(--wild-strawberry);
-
+#turmas footer h3 {
+    font-size: smaller;
+    color: var(--ghost-white);
 }
 
-h1 {
-    text-align: center;
-    color: var(--coffee-bean);
-    font-size: 3em;
-    margin-top: 20px;
+#turmas .turmaA {
+    background-color: var(--emerald);
 }
 
+#turmas .sala.turmaB {
+    background-color: var(--royal-violet);
+}
 
-ul li a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: pink;
+.listaAlunos {
+    list-style: decimal-leading-zero;
+    margin-left: 30px;
+}
+
+.listaAlunos li {
+    padding: 5px;
 }
 
 img {
-    width: 80%;
-    max-width: 500px;
+    width: 250px;
+    height: auto;
+    margin: auto;
     display: block;
-    margin: 0 auto;
+}
+
+li , div {
+    text-align: center;
 }

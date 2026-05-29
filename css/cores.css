@@ -1,7 +1,7 @@
 :root {
---majorelle-blue: #6e44ffff;
---wild-strawberry: #fd3e81ff;
---coffee-bean: #22181cff;
---golden-pollen: #ffca3aff;
---malachite: #53dd6cff;
+    --royal-violet: #731dd8ff;
+    --pacific-blue: #46acc2ff;
+    --emerald: #4cb963ff;
+    --carbon-black: #252627ff;
+    --ghost-white: #fbfbffff;
 }
