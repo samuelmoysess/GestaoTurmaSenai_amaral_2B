@@ -10,6 +10,7 @@
     src: url(fonts/resident/The\Resident.otf);
 }
 
+
 body {
     color: var(--coffee-bean);
     font-family: resident;
